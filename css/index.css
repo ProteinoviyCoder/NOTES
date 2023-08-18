@@ -1,0 +1,316 @@
+*,
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  cursor: default;
+}
+
+body {
+  background-color: black;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 20px;
+}
+
+.container {
+  max-width: 1920px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.nav {
+  border: 1px solid white;
+  border-bottom-color: #f0db22;
+  min-height: 30px;
+  border-radius: 100px;
+  box-shadow: 0 0 10px 3px rgba(255, 255, 255, 0.5);
+  color: white;
+  text-align: center;
+  text-shadow: white 1px 0 10px;
+}
+.name-project {
+  padding: 5px;
+}
+
+.all-content {
+  display: flex;
+  flex-direction: row;
+}
+.zona-calendar-and-folder {
+  display: block;
+  width: 20%;
+}
+.zona-notes {
+  width: 65%;
+}
+.zona-time-notes {
+  width: 15%;
+}
+
+.div-date-and-everyday-notes {
+  background-color: rgba(138, 136, 117, 0.3);
+  border-radius: 19px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  box-shadow: 0 0 10px 3px rgba(138, 136, 117, 0.3);
+  border: 1px solid rgba(1, 1, 1, 0);
+  height: 49%;
+}
+.div-date-and-everyday-notes-absolute {
+  position: absolute;
+  left: 20.4%;
+  width: 64.1%;
+  top: 7%;
+  height: 850px;
+  background-color: #2a2923;
+}
+
+.div-date-and-everyday-notes:hover {
+  border: 1px solid rgba(225, 225, 225, 0.11);
+}
+
+.div-date {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: black;
+  background-color: #f0db22;
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px 5px rgba(240, 219, 34, 0.4);
+  text-shadow: black 1px 0 2px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.info-div-date {
+  display: flex;
+  align-items: center;
+}
+
+.time {
+  margin-right: 35px;
+}
+
+.icon-string-down {
+  border-top: 6px solid rgb(0, 0, 0);
+  border-right: 6px solid rgb(0, 0, 0);
+  padding: 5px;
+  transform: rotate(135deg);
+  cursor: pointer;
+  margin-bottom: 5px;
+  margin-right: 20px;
+  transition: 0.5s;
+}
+.icon-string-down:hover {
+  box-shadow: 4px -3px 5px 1px rgba(1, 1, 1, 0.3);
+}
+.icon-string-down-absolute {
+  margin-top: 10px;
+  transform: rotate(315deg);
+  transition: 0.5s;
+}
+
+.everyday-notes-set {
+  height: 300px;
+  margin: 15px;
+  overflow-y: auto;
+  border: 1px solid white;
+}
+.everyday-notes-set-absolute {
+  height: 720px;
+  transition: 0.5s;
+}
+
+.everyday-notes-item {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid #f0db22;
+  border-radius: 50px;
+  padding: 10px 0;
+  color: white;
+  width: 97%;
+  margin: 10px 1%;
+  word-wrap: break-word;
+  cursor: pointer;
+}
+.everyday-notes-item:hover {
+  background-color: rgba(240, 219, 34, 0.1);
+}
+
+.everyday-note-text {
+  width: 75%;
+  cursor: pointer;
+  padding: 10px;
+}
+.everyday-notes-time {
+  width: 7%;
+  border: 1px solid #f0db22;
+  text-align: center;
+  padding: 3px;
+  border-radius: 30px;
+}
+.everyday-notes-color-marker {
+  padding: 15px;
+  border: 1px solid white;
+  border-radius: 50px;
+}
+.everyday-notes-btn-ok {
+  width: 5%;
+  padding: 5px;
+  border-radius: 15px;
+  background-color: rgb(172, 239, 71);
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 0 5px 1px rgba(172, 239, 71, 0.7);
+}
+.everyday-notes-btn-ok:hover {
+  box-shadow: 0 0 5px 1px rgba(29, 28, 28, 0.7);
+}
+.click-on-btn-ok {
+  background-color: #f0db22;
+}
+.click-on-btn-ok-li {
+  background-color: rgba(66, 121, 55, 0.7);
+  cursor: default;
+}
+.click-on-btn-ok-li:hover {
+  background-color: rgba(66, 121, 55, 1);
+}
+.click-on-btn-ok-p {
+  text-decoration-line: line-through;
+  cursor: default;
+}
+
+.everyday-notes-btn-del {
+  width: 5%;
+  padding: 5px;
+  border-radius: 15px;
+  background-color: #cc1d1d;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 0 5px 1px rgba(240, 18, 18, 0.7);
+}
+.everyday-notes-btn-del:hover {
+  box-shadow: 0 0 5px 1px rgba(202, 176, 176, 0.7);
+}
+
+.everyday-notes-set::-webkit-scrollbar {
+  background-color: rgba(1, 1, 1, 0);
+  width: 10px;
+}
+.everyday-notes-set::-webkit-scrollbar-thumb {
+  background-color: rgba(225, 225, 225, 0.4);
+  border-radius: 10px;
+}
+
+.btn-everyday-notes {
+  padding-bottom: 15px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.btn-everyday {
+  background-color: #f0db22;
+  border: 1px solid white;
+  box-shadow: 0 0 5px 4px rgba(240, 219, 34, 0.3);
+  border-radius: 10px;
+  padding: 5px;
+  transition: 0.7s;
+  cursor: pointer;
+}
+.btn-everyday:hover {
+  text-shadow: black 1px 0 2px;
+  box-shadow: 0 0 5px 4px rgba(240, 219, 34, 0.5);
+  border-radius: 30px;
+  background: linear-gradient(to bottom right, #f0db22, 80%, white);
+  transition: 1s;
+}
+
+.none {
+  display: none;
+}
+
+@media (max-width: 1700px) {
+  .all-content {
+    display: flex;
+    flex-direction: column;
+  }
+  .zona-calendar-and-folder {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .calendar {
+    width: 80%;
+  }
+  .admin-panel {
+    width: 15%;
+  }
+
+  .zona-notes {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .div-date-and-everyday-notes-absolute {
+    width: 95%;
+    left: 2.5%;
+    height: 950px;
+    top: 6%;
+  }
+  .everyday-notes-set-absolute {
+    height: 800px;
+  }
+  .everyday-note-text {
+    width: 67%;
+  }
+  .everyday-notes-time {
+    width: 10%;
+  }
+  .everyday-notes-btn-ok,
+  .everyday-notes-btn-del {
+    width: 7%;
+  }
+}
+
+@media (max-width: 680px) {
+  .div-date {
+    font-size: 14px;
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .everyday-notes-item {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .everyday-note-text {
+    width: 60%;
+    font-size: 16px;
+  }
+  .everyday-notes-time {
+    font-size: 16px;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    height: 40px;
+  }
+  .everyday-notes-btn-ok,
+  .everyday-notes-btn-del {
+    margin-top: 15px;
+    font-size: 16px;
+    width: 35%;
+  }
+  .everyday-notes-btn-ok {
+    margin-left: 20px;
+  }
+  .everyday-notes-btn-del {
+    margin-right: 20px;
+  }
+  .btn-everyday {
+    font-size: 16px;
+  }
+}
