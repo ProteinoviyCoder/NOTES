@@ -1,0 +1,114 @@
+.number-day-change {
+  color: white;
+}
+.number-day-change:hover {
+  background-color: rgb(103, 102, 93);
+}
+
+.calendar-icon-left-change {
+  border-top: 5px solid white;
+  border-right: 5px solid white;
+}
+.calendar-icon-left-change:hover {
+  border-top: 5px solid white;
+  border-right: 5px solid rgb(111, 104, 104);
+}
+.calendar-icon-right-change {
+  border-top: 5px solid white;
+  border-right: 5px solid white;
+}
+.calendar-icon-right-change:hover {
+  border-top: 5px solid white;
+  border-right: 5px solid rgb(111, 104, 104);
+}
+.icon-string-down-change {
+  border-top: 6px solid white;
+  border-right: 6px solid white;
+}
+.everyday-notes-item-change {
+  border: 1px solid black;
+  color: black;
+}
+.everyday-notes-item-change:hover {
+  background-color: rgba(1, 1, 1, 0.3);
+}
+.everyday-notes-set-change {
+  border: 1px solid black;
+}
+.everyday-notes-set-change::-webkit-scrollbar {
+  background-color: rgba(6, 6, 6, 0);
+  width: 10px;
+}
+.everyday-notes-set-change::-webkit-scrollbar-thumb {
+  background-color: rgba(8, 8, 8, 0.9);
+  border-radius: 10px;
+}
+.everyday-notes-time-change {
+  border: 1px solid black;
+}
+.btn-everyday-change {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  box-shadow: 0 0 5px 4px rgba(0, 0, 0, 0.3);
+  border: none;
+}
+.btn-everyday-change:hover {
+  text-shadow: black 1px 0 2px;
+  box-shadow: 0 0 5px 4px rgba(0, 0, 0, 0.7);
+  border-radius: 30px;
+  background: linear-gradient(to bottom right, rgb(0, 0, 0), 80%, white);
+  transition: 1s;
+}
+
+.timeline-item-change {
+  background-color: rgb(18, 17, 17);
+  border: 2px solid rgb(255, 255, 255);
+}
+.admin-panel-change {
+  background-color: white;
+  box-shadow: 0 0 5px 3px black;
+}
+
+.new-folders-set-change::-webkit-scrollbar {
+  background-color: rgba(6, 6, 6, 0);
+  width: 10px;
+}
+.new-folders-set-change::-webkit-scrollbar-thumb {
+  background-color: rgba(8, 8, 8, 0.9);
+  border-radius: 10px;
+}
+
+.set-folder-do-list-change::-webkit-scrollbar {
+  background-color: rgba(6, 6, 6, 0);
+  width: 10px;
+}
+.set-folder-do-list-change::-webkit-scrollbar-thumb {
+  background-color: rgba(8, 8, 8, 0.9);
+  border-radius: 10px;
+}
+.modal-window-change {
+  background-color: white;
+  border: 5px solid black;
+}
+
+.set-time-change::-webkit-scrollbar {
+  background-color: rgba(6, 6, 6, 0);
+  width: 10px;
+}
+.set-time-change::-webkit-scrollbar-thumb {
+  background-color: rgba(8, 8, 8, 0.9);
+  border-radius: 10px;
+}
+.submit-modal-folder-change {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  box-shadow: 0 0 5px 4px rgba(0, 0, 0, 0.3);
+  border: none;
+}
+.submit-modal-folder-change:hover {
+  text-shadow: black 1px 0 2px;
+  box-shadow: 0 0 5px 4px rgba(0, 0, 0, 0.7);
+  border-radius: 30px;
+  background: linear-gradient(to bottom right, rgb(0, 0, 0), 80%, white);
+  transition: 1s;
+}
